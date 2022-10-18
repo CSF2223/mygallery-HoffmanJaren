@@ -1,9 +1,9 @@
 /*
-Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+Color Palette:#DD5353
+background color: #B73E3E 
+font color: #EDDBC0       
+secondary color:   #A0D995
+tertiary color:  #FCF8E8
 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
@@ -15,6 +15,7 @@ header {
     margin:0 4rem;
     letter-spacing: 0.8rem;
     text-align: center;
+    border-top: 1px solid #826F66 ;
     border-bottom: 1px solid #826F66;
     border-right: 1px solid #826F66;
     border-left: 1px solid #826F66;
@@ -66,6 +67,7 @@ p {
     margin-top: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 @media (min-width: 768px) {
     header {
         font-size: 1.6rem;
